@@ -112,7 +112,7 @@ export const defaultExtensions = [
       if (node.type.name === "heading") {
         return `Heading ${node.attrs.level}`;
       }
-      return "Press '/' for commands, or '++' for AI autocomplete...";
+      return "'/' を押すと利用できるコマンドが確認できます。";
     },
     includeChildren: true,
   }),
